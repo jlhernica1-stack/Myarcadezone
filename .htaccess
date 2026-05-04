@@ -1,0 +1,14 @@
+Options -Indexes
+
+# Redirigir index.html → index.php si existe el PHP
+DirectoryIndex index.php index.html
+
+# Proteger config.php
+<Files "config.php">
+  Require all denied
+</Files>
+
+# Proteger archivos del admin excepto los PHP
+<FilesMatch "^_">
+  Require all denied
+</FilesMatch>
