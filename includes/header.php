@@ -31,6 +31,14 @@ $json_ld          = $json_ld          ?? null;
 <link rel="stylesheet" href="/assets/css/style.css">
 <?php if ($extra_css): ?><style><?= $extra_css ?></style><?php endif; ?>
 <?php if ($json_ld): ?><script type="application/ld+json"><?= $json_ld ?></script><?php endif; ?>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B5T2H6DH6V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-B5T2H6DH6V');
+</script>
 </head>
 <body>
 
