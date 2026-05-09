@@ -57,6 +57,14 @@ require __DIR__ . '/includes/header.php';
             <p>El abuelo de todos los emuladores arcade. <strong style="color:var(--blanco)">Multiple Arcade Machine Emulator</strong>. Lleva desde 1997 y lo que no emula MAME es porque probablemente no existe. Tiene compatibilidad con más de 40.000 juegos, lo que significa que también tiene una curva de aprendizaje que da respeto. No es el más amigable del mundo, pero cuando lo dominas puedes emular desde el Pac-Man hasta el último Neo Geo.</p>
           </div>
 
+          <!-- VIDEO MAME -->
+          <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:20px 0 24px">
+            <iframe src="https://www.youtube.com/embed/a1Rh3n0pL1Y"
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"
+                    allowfullscreen loading="lazy"
+                    title="MAME — Emulador arcade"></iframe>
+          </div>
+
           <!-- RetroArch -->
           <div class="emu-entry">
             <div class="emu-entry-header">

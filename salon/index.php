@@ -615,6 +615,8 @@ const salonTracks = [
     url: 'https://ia903209.us.archive.org/7/items/the-flintstones-pinball-music/The%20Flintstones%20%28pinball%20music%29.mp3' },
   { title: 'THE ADDAMS FAMILY — PINBALL SOUNDTRACK', game: 'The Addams Family Pinball (1992)',
     url: 'https://ia600505.us.archive.org/17/items/the-addams-family-pinball-soundtrack/The%20Addams%20Family%20%20pinball%20Soundtrack.mp3' },
+  { title: 'TERMINATOR 2 — JUDGMENT DAY PINBALL', game: 'Terminator 2: Judgment Day Pinball (1991)',
+    url: 'https://ia903204.us.archive.org/9/items/terminator-2-judgment-day_202605/Terminator%202%20Judgment%20Day.mp3' },
 ];
 
 let salonAudio, salonIdx = -1, salonPlaying = false, salonInited = false;
